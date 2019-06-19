@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'FlutterModule'
-    s.version = '1.0.3'
+    s.version = '1.0.5'
     s.description = 'FlutterModule，黄花菜'
     s.license = 'MIT'
     s.summary = 'FlutterModule'
