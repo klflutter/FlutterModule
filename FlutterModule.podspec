@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'FlutterModule'
-    s.version = '1.0.2'
+    s.version = '1.0.3'
     s.description = 'FlutterModule，黄花菜'
     s.license = 'MIT'
     s.summary = 'FlutterModule'
@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
      end
     end
 
-    s.ios.vendored_frameworks = arr
+    # s.ios.vendored_frameworks = arr
+    s.vendored_frameworks = arr
 end
